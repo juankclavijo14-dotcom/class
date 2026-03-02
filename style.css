@@ -1,16 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
 .img-01 {
     width: 350px;
     height: 250px;
     border-radius: 18px;
+    display: block;
+    margin: 20px auto; /* centra la imagen */
 }
 
 .titulo {
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* mayúsculas */
+    background-color: #d9d9d9; /* gris claro */
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .texto {
     font-size: 16px;
     font-weight: normal;
-    max-width: 600px;
+    max-width: 800px;
+    background-color: #eaf4ff; /* azul MUY claro */
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.nombre {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    font-size: 14px;
+    font-weight: bold;
 }
