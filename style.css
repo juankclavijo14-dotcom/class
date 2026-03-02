@@ -1,0 +1,16 @@
+.img-01 {
+    width: 350px;
+    height: 250px;
+    border-radius: 18px;
+}
+
+.titulo {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 600px;
+}
